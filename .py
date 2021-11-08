@@ -17,3 +17,14 @@ print (summan)
 
 a*b
 
+svar = input("mätarstälingen idag? ")
+g = float (svar)
+svar = input("mätarställnigen för ett år sedan")
+x = float (svar)
+y = g - x
+print("antal körda mil:", y)
+
+svar = input("Antal liter bensin? ")
+h = float (svar)
+v = h / y
+print("Förbrukning per mil:", v)
